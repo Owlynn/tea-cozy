@@ -1,0 +1,138 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+html {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: rgba(255, 245, 238, 1);
+    text-align: center;
+    opacity:0.7;
+    
+}
+
+/* Section header */
+
+header{
+    height: 69px;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    opacity: 0.8;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    background-color: black;
+    }
+
+.header__logo{
+    height:50px;
+}
+nav {
+    width:22%;
+    display: flex;
+    justify-content: space-between;
+    }
+nav a{
+    color: rgba(255, 245, 238, 0.9);
+}
+/* Section bannière */
+
+.mission{
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    margin:auto; 
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+}
+
+.mission__bloc-titre{
+    background-color: black;
+    padding-top:20px;
+    padding-bottom:20px;
+    width: 100%;
+    
+}
+
+
+/* Section featured */
+
+.featured{
+    width:1000px;
+    display: block;
+    margin: auto;
+   
+} 
+
+
+.featured__bloc-img{
+ display: flex;
+ justify-content: space-evenly;
+ flex-wrap: wrap;
+ margin-bottom: 40px;
+ 
+}
+
+.featured__bloc-titre{
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+.featured__img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    
+}
+
+/* Section Locations */
+
+.locations{    
+    background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    margin:auto; 
+    height: 600px;
+    width: 1200px;
+    
+    }
+
+.locations__bloc-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location__card {
+    background-color: black;
+    width:300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-right:40px;
+        
+}
+
+.locations__bloc-titre{
+    padding: 60px ;
+}
+
+/* Section contact */
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 200px;
+}
+
+footer{
+    text-align: left;
+}
